@@ -1,0 +1,33 @@
+
+body{
+  background-color: #635f5f;
+  text-align: center;
+}
+button{
+  border-radius:20px ;
+}
+
+img{
+  height: 100px;
+  background-color: rgb(180, 197, 160);
+  border: none;
+   border-radius:20px ;
+
+}
+
+#stump{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(180, 197, 160);
+}
+#resetbutton{
+  width: 120px;
+  height: 40px;
+  color: rgb(249, 242, 244);
+  background-color: rgb(28, 10, 9);
+  border: solid;
+  border-color: antiquewhite;
+}
+h3{
+  color: rgb(205, 247, 180);
+}

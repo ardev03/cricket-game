@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket game </title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+    <h1>Bat Ball stump Game </h1>
+    <button onclick="
+   
+
+         
+       let computermove = computerNum();
+       let resultmsg = gatResult('Bat', computermove);
+      showResult('Bat',computermove,resultmsg);
+       
+
+        "><img src="/cricket game/image/vecteezy_cartoon-cricket-character-holding-bat_60443536.png" alt=""></button>
+     <button onclick="
+           
+             computermove = computerNum();
+               resultmsg = gatResult('Ball', computermove);
+               showResult('Ball',computermove,resultmsg);
+       
+
+
+        "><img  src="/cricket game/image/vecteezy_a-shiny-red-cricket-ball-takes-center-stage-adorned-with_60178118.png" alt=""></button>
+      <button onclick="
+           computermove = computerNum();
+            resultmsg = gatResult('stump', computermove);
+            showResult('stump',computermove,resultmsg);
+        
+        "> <img id="stump" src="https://www.clipartmax.com/png/small/286-2867367_cricket-clipart-stumps-cricket.png" alt="Cricket Clipart Stumps - Cricket @clipartmax.com"></button>
+        
+    <h3 id="user-move"></h3>
+    <h3 id="computer-move"></h3>
+    <h3 id="result"></h3>
+    <h3 id="score"></h3>
+    <button id="resetbutton" onclick="localStorage.clear()
+       resetScore();
+       showResult()
+        ">RESET</button>
+
+        
+    <script src="cricket.js"></script>
+</body>
+</html>
