@@ -14,6 +14,16 @@ img{
    border-radius:20px ;
 
 }
+#bat-image{
+   width: 100px;
+  height: 100px;
+  background-color: rgb(180, 197, 160);
+}
+#ball-image{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(180, 197, 160);
+}
 
 #stump{
   width: 100px;
